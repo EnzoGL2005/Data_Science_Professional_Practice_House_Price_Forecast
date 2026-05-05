@@ -44,9 +44,9 @@ print(df.head())
 
 ###Dataset Preview
 
-![Dataset Preview](images/dataset_preview.png)
+![Dataset Preview](images/Preview%20of%20Data%20image.png)
 
-*Figure 1: Initial dataset preview*
+*Figure 1: Dataset after being loaded in
 
 ### Data Cleaning
 
@@ -81,8 +81,31 @@ solihull_df = df[df['Area'] == 'Solihull']
 
 The dataset was filtered to focus specifically on Solihull.
 
+### Hisotirc data Visualisation
 
-## 📈 Time Series Modelling (SARIMA)
+The following code plots the historical trend of detached house prices in Solihull over time.
+
+```python
+# create a canvas for the time series graph
+plt.figure(figsize=(10, 5))
+
+# plot the detached house price time series
+plt.plot(ts)
+
+# add title and axis labels
+plt.title("Solihull Detached House Prices Over Time")
+plt.xlabel("Date")
+plt.ylabel("Price")
+
+# adjust layout to prevent overlap
+plt.tight_layout()
+
+# display the plot
+plt.show()
+
+
+
+## Time Series Modelling (SARIMA)
 
 A **SARIMA model** was used due to its ability to capture both trend and seasonal patterns in time series data.
 
@@ -127,9 +150,9 @@ plt.show()
 
 ### Forecast Output
 
-![Forecast Chart](images/forecast.png)
+![Forecast Chart](images/Solihull_House_Price_Forecast.png)
 
-*Figure 2: Forecast showing historical data (blue) and predicted values (orange)*
+*Figure 2: SARIMA forecast showing predicted growth in detached house prices*
 
 
 ## Results
