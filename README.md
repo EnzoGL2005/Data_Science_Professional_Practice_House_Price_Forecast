@@ -46,7 +46,7 @@ Dataset Preview
 
 ![Dataset Preview](images/Preview%20of%20Data%20image.png)
 
-*Figure 1: Dataset after being loaded in
+Figure 1: Dataset after being loaded in
 
 ### Data Cleaning
 
