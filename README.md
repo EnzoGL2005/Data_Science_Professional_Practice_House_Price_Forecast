@@ -103,8 +103,7 @@ plt.tight_layout()
 # display the plot
 plt.show()
 
-'''
-![Historic Data Visualisation](images/Historic_Data_Visulisation.png)
+
 
 ## Time Series Modelling (SARIMA)
 
