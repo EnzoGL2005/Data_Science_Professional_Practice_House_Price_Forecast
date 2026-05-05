@@ -42,7 +42,7 @@ print("Data loaded successfully.\n")
 print(df.head())
 ```
 
-###Dataset Preview
+Dataset Preview
 
 ![Dataset Preview](images/Preview%20of%20Data%20image.png)
 
@@ -102,10 +102,11 @@ plt.tight_layout()
 
 # display the plot
 plt.show()
+```
+![Historic Data Visualisation](images/Historic_Data_Visulisation.png)
 
 
-
-## Time Series Modelling (SARIMA)
+### Time Series Modelling (SARIMA)
 
 A **SARIMA model** was used due to its ability to capture both trend and seasonal patterns in time series data.
 
